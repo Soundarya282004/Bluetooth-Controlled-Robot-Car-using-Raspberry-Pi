@@ -4,20 +4,13 @@ This project controls a robot car wirelessly using Bluetooth communication. A Ra
 The robot can move forward, backward, left, right, and stop.
 
 🔌 Hardware Required
-
-Raspberry Pi
-
-Bluetooth Module (HC-05 / HC-06) or USB Bluetooth adapter
-
-Motor Driver Module (L298N / L293D)
-
-2 DC Motors + Wheels
-
-Robot chassis
-
-Battery pack
-
-Jumper wires
+- Raspberry Pi
+- Bluetooth Module (HC-05 / HC-06) or USB Bluetooth adapter
+- Motor Driver Module (L298N / L293D)
+- 2 DC Motors + Wheels
+- Robot chassis
+- Battery pack
+- Jumper wires
 
 🔧 GPIO Pin Configuration
 Component	GPIO Pin
