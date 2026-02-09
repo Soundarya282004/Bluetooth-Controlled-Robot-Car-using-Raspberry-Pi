@@ -40,10 +40,11 @@ port='/dev/ttyUSB0'
 
 Save as:
 
-Main.py
+    Main.py
 
 3️⃣ Run the Program
-python3 Main.py
+
+    python3 Main.py
 
 4️⃣ Send Commands via Bluetooth
 
@@ -60,7 +61,8 @@ The rules are also sent to the Bluetooth terminal automatically.
 
 ⚙️ How the Code Works
 🔹 Bluetooth Communication
-ser = serial.Serial('/dev/ttyUSB0', 9600)
+
+    ser = serial.Serial('/dev/ttyUSB0', 9600)
 
 
 Receives control commands via Bluetooth serial communication.
@@ -71,7 +73,7 @@ Each function controls GPIO pins connected to the motor driver.
 
 Example:
 
-def forward():
+    def forward():
 
 
 Moves both motors forward.
@@ -80,7 +82,7 @@ Moves both motors forward.
 
 Before changing direction, motors stop first to prevent damage:
 
-stop()
+    stop()
 
 🔁 Continuous Command Monitoring
 
@@ -95,4 +97,4 @@ CTRL + C
 
 GPIO pins are safely reset using:
 
-GPIO.cleanup()
+    GPIO.cleanup()
