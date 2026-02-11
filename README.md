@@ -78,7 +78,7 @@ Moves both motors forward.
 
 Before changing direction, motors stop first to prevent damage:
 
-stop()
+    stop()
 
 🔁 Continuous Command Monitoring
 
@@ -88,9 +88,9 @@ The loop continuously checks for incoming Bluetooth commands and executes motor 
 
 Press:
 
-CTRL + C
+    CTRL + C
 
 
 GPIO pins are safely reset using:
 
-GPIO.cleanup()
+    GPIO.cleanup()
