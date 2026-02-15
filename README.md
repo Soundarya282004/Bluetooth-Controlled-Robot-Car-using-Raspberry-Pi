@@ -20,8 +20,8 @@ Right Motor IN2	GPIO 4
 
 Install required libraries:
 
-pip install pyserial
-pip install RPi.GPIO
+    pip install pyserial
+    pip install RPi.GPIO
 
 ▶ How to Run the Code
 1️⃣ Connect Bluetooth Module
@@ -32,13 +32,13 @@ Note the serial port (usually /dev/ttyUSB0 or /dev/rfcomm0)
 
 Update this line if needed:
 
-port='/dev/ttyUSB0'
+    port='/dev/ttyUSB0'
 
 2️⃣ Save the File
 
 Save as:
 
-Main.py
+    Main.py
 
 3️⃣ Run the Program
 python3 Main.py
