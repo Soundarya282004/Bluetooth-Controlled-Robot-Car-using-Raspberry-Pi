@@ -13,7 +13,8 @@ This project controls a robot car wirelessly using Bluetooth communication. A Ra
 🔧 GPIO Pin Configuration
 
 <img width="310" height="121" alt="image" src="https://github.com/user-attachments/assets/641305b0-2f57-4c83-8af2-caffcaf314cc" />
-\n
+
+
 💻 Software Requirements
 
 Install required libraries:
