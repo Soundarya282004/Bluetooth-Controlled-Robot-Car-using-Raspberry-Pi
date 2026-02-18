@@ -16,6 +16,8 @@ Left Motor IN1	GPIO 2
 Left Motor IN2	GPIO 3
 Right Motor IN1	GPIO 17
 Right Motor IN2	GPIO 4
+<img width="310" height="121" alt="image" src="https://github.com/user-attachments/assets/641305b0-2f57-4c83-8af2-caffcaf314cc" />
+
 💻 Software Requirements
 
 Install required libraries:
